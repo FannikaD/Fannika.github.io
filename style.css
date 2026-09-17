@@ -23,7 +23,7 @@ ul {
 }
 
 #navbar{
-  padding-right: 20px;
+  gap: clamp(10px, 2vw, 20px);
   z-index:1;
   top:0px;
   min-width:auto;
