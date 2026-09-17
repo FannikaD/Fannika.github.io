@@ -61,6 +61,10 @@ a:link{
     font-weight: bold;
 }
 
+#question{
+    font-weight: bold;
+}
+
 #homeIMG{
     display:inline-block;
     justify-content:left;
