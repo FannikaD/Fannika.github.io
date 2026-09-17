@@ -35,7 +35,7 @@ ul {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #f0f4f8;
   display: flex;
-  font-size: 3vw;
+  font-size: 30px;
   box-sizing: border-box;
   text-decoration: none;
   a:visited {
@@ -83,7 +83,7 @@ a:link{
     justify-content:left;
     text-align:left;
     width: 32%;
-    height:40%;
+    height:500px;
     border-radius: 10px;
     border: 2px solid rgb(255, 255, 255);
 }
@@ -93,8 +93,7 @@ a:link{
     justify-content:left;
     text-align:left;
     width: 32%;
-    min-height:50%;
-    max-height:60%
+    height:500px;
     border-radius: 10px;
     border: 2px solid rgb(255, 255, 255);
 }
@@ -178,4 +177,22 @@ footer {
     border-top: 1px solid #444;
     margin-top: 20px;
     padding-top: 20px;
+}
+
+@media screen and (max-width:480px) {
+    #navbar{
+        font-size: 20px;
+    }
+    #header-img{
+        width:60px;
+        height:60px;
+    }
+    #homeIMG2{
+        width: 32%;
+        height:300px; 
+    }
+    #homeIMG3{
+        width: 32%;
+        height:300px;
+    }
 }
