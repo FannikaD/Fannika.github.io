@@ -20,9 +20,11 @@ ul {
   gap: clamp(10px, 2vw, 20px);
   width: 90%;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 #navbar{
+  overflow-x:hidden;
   gap: clamp(10px, 2vw, 20px);
   z-index:1;
   top:0px;
@@ -34,6 +36,7 @@ ul {
   color: #f0f4f8;
   display: flex;
   font-size: 30px;
+  box-sizing: border-box;
   text-decoration: none;
   a:visited {
     color:#f0f4f8;
