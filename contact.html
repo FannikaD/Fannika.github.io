@@ -55,6 +55,7 @@ const message = "Congratulations! Your form has been submitted. We will get back
 const helpEmail = document.getElementById("help-email");
 const helpNumber = document.getElementById("help-number");
 const helpText = document.getElementById("help");
+const form = document.getElementById('help-form');
 
 helpBtn.addEventListener("click", () => {
     if (helpName.value === null || helpName.value === "") {
@@ -70,7 +71,9 @@ helpBtn.addEventListener("click", () => {
         alert("Please enter your query.");
         return;
     }else {
+        form.sumbit();
         alert("Thank you for your submission, " + helpName.value + ". We will get back to you as soon as possible.");
+        return;
     }
 });
     </script>
