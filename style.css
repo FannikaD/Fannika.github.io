@@ -35,7 +35,7 @@ ul {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #f0f4f8;
   display: flex;
-  font-size: 1.5625vw;
+  font-size: 3vw;
   box-sizing: border-box;
   text-decoration: none;
   a:visited {
