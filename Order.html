@@ -35,7 +35,7 @@
         </div>
         <div>
             <label for="Order-number">Phone Number</label>
-            <input id="Order-number" type="tel" name="Order-number" required/>
+            <input id="order-number" type="tel" name="order-number" required/>
         </div>
         <div>
             <label for="company">Company Name</label>
@@ -199,6 +199,27 @@ checkbox19.addEventListener('change', function() {amount19.required =checkbox.ch
 checkbox20.addEventListener('change', function() {amount20.required =checkbox.checked;});
 checkbox21.addEventListener('change', function() {amount21.required =checkbox.checked;});
 checkbox22.addEventListener('change', function() {amount22.required =checkbox.checked;});
+        
+const orderName = document.getElementById("order-name");
+const orderBtn = document.querySelector(".order-btn");
+const message = "Congratulations! Your form has been submitted. We will get back to you as soon as possible.";
+const orderEmail = document.getElementById("order-email");
+const orderNumber = document.getElementById("order-number");
+
+helpBtn.addEventListener("click", () => {
+    if (orderName.value === null || orderName.value === "") {
+        alert("Please enter your name.");
+        return;
+    }else if (orderEmail.value === null || orderEmail.value === "") {
+        alert("Please enter your email.");
+        return;
+    }else if (orderNumber.value === null || orderNumber.value === "") {
+        alert("Please enter your phone number.");
+        return;
+    }else {
+        alert("Thank you for your submission, " + helpName.value + ". We will get back to you as soon as possible.");
+    }
+});
     </script>
 </body>
 <footer>
