@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auckland Pallet Sales</title>
+    <meta name="description" content="Auckland Pallet Sales is a pallet supplier in Auckland, New Zealand. We offer a wide range of pallets for sale, including wooden and plastic pallets to meet your needs.">
+    <!-- Link the CSS design sheet -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    
+    <nav id="navbar">
+      <img id="header-img" src="Logo.png">
+      <ul>
+        <li><a href="index.html">Home page</a></li>
+        <li><a href="Stock.html">Stock</a></li>
+        <li><a href="Order.html">Order</a></li>
+        <li><a href="Queries.html">FAQ</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </nav>
+    
+    <h1>Fill out an order form below</h1>
+
+    <form action="https://api.web3forms.com/submit" method="POST" id="order-form">
+        <input type="hidden" name="access_key" value="d3c5211b-66ef-49a2-b9d1-8b5dc68202f7">
+        <div>
+            <label for="order-name">Name</label>
+            <input id="order-name" type="text" name="order-name" required/>
+        </div>
+        <div>
+            <label for="order-email">Email</label>
+            <input id="order-email" type="email" name="order-email" required/>
+        </div>
+        <div>
+            <label for="Order-number">Phone Number</label>
+            <input id="Order-number" type="tel" name="Order-number" required/>
+        </div>
+        <div>
+            <label for="company">Company Name</label>
+            <input id="company" type="text" name="company" />
+        </div>
+        <p id="bold">Pallet Type</p>
+        <div id="checkbox">
+            <input type="checkbox" id="2-way-1200x1000" name="2-way-1200x1000" value="2-way-1200x1000">
+            <label for="2-way-1200x1000">2 way 1200 x 1000</label>
+            <input type="number" id="2-way-1200x1000-quantity" name="2-way-1200x1000-quantity"><br>
+            <input type="checkbox" id="2-way-1000x1200" name="2-way-1000x1200" value="2-way-1000x1200">
+            <label for="2-way-1000x1200">2 way 1000 x 1200</label>
+            <input type="number" id="2-way-1000x1200-quantity" name="2-way-1000x1200-quantity"><br>
+            <input type="checkbox" id="4-way-1200x1000" name="4-way-1200x1000" value="4-way-1200x1000">
+            <label for="4-way-1200x1000">4 way 1200 x 1000</label>
+            <input type="number" id="4-way-1200x1000-quantity" name="4-way-1200x1000-quantity"><br>
+            <input type="checkbox" id="Chep-style" name="Chep-style" value="Chep-style">
+            <label for="Chep-style">Chep style</label>
+            <input type="number" id="Chep-style-quantity" name="Chep-style-quantity"><br>
+            <input type="checkbox" id="Budget" name="Budget" value="Budget">
+            <label for="Budget">Budget</label>
+            <input type="number" id="Budget-quantity" name="Budget-quantity"><br>
+            <input type="checkbox" id="1120-square" name="1120-square" value="1120-square">
+            <label for="1120-square">1120 square</label>
+            <input type="number" id="1120-square-quantity" name="1120-square-quantity"><br>
+            <input type="checkbox" id="1140-square" name="1140-square" value="1140-square">
+            <label for="1140-square">1140 square</label>
+            <input type="number" id="1140-square-quantity" name="1140-square-quantity"><br>
+            <input type="checkbox" id="1150-square" name="1150-square" value="1150-square">
+            <label for="1150-square">1150 square</label>
+            <input type="number" id="1150-square-quantity" name="1150-square-quantity"><br>
+            <input type="checkbox" id="1165-square" name="1165-square" value="1165-square">
+            <label for="1165-square">1165 square</label>
+            <input type="number" id="1165-square-quantity" name="1165-square-quantity"><br>
+            <input type="checkbox" id="1200-square" name="1200-square" value="1200-square">
+            <label for="1200-square">1200 square</label>
+            <input type="number" id="1200-square-quantity" name="1200-square-quantity"><br>
+            <input type="checkbox" id="EPAL" name="EPAL" value="EPAL">
+            <label for="EPAL">EPAL</label>
+            <input type="number" id="EPAL-quantity" name="EPAL-quantity"><br>
+            <input type="checkbox" id="Dairy-board" name="Dairy-board" value="Dairy-board">
+            <label for="Dairy-board">Dairy board</label>
+            <input type="number" id="Dairy-board-quantity" name="Dairy-board-quantity"><br>
+            <input type="checkbox" id="Oversized" name="Oversized" value="Oversized">
+            <label for="Oversized">Oversized</label>
+            <input type="number" id="Oversized-quantity" name="Oversized-quantity"><br>
+            <input type="checkbox" id="Fruit-bins" name="Fruit-bins" value="Fruit-bins">
+            <label for="Fruit-bins">Fruit bins</label>
+            <input type="number" id="Fruit-bins-quantity" name="Fruit-bins-quantity"><br>
+            <input type="checkbox" id="plastic-1200x1000" name="plastic-1200x1000" value="plastic-1200x1000">
+            <label for="plastic-1200x1000">plastic 1200x1000</label>
+            <input type="number" id="plastic-1200x1000-quantity" name="plastic-1200x1000-quantity"><br>
+            <input type="checkbox" id="plastic-1200x1100" name="plastic-1200x1100" value="plastic-1200x1100">
+            <label for="plastic-1200x1100">plastic 1200x1100</label>
+            <input type="number" id="plastic-1200x1100-quantity" name="plastic-1200x1100-quantity"><br>
+            <input type="checkbox" id="plastic-1200x1000-nestable" name="plastic-1200x1000-nestable" value="plastic-1200x1000-nestable">
+            <label for="plastic-1200x1000-nestable">plastic 1200x1000 nestable</label>
+            <input type="number" id="plastic-1200x1000-nestable-quantity" name="plastic-1200x1000-nestable-quantity"><br>
+            <input type="checkbox" id="plastic-1100x1100" name="plastic-1100x1100" value="plastic-1100x1100">
+            <label for="plastic-1100x1100">plastic 1100x1100</label>
+            <input type="number" id="plastic-1100x1100-quantity" name="plastic-1100x1100-quantity"><br>
+            <input type="checkbox" id="plastic-epal" name="plastic-epal" value="plastic-epal">
+            <label for="plastic-epal">plastic EPAL</label>
+            <input type="number" id="plastic-epal-quantity" name="plastic-epal-quantity"><br>
+        </div>
+        <div>
+            <label for="delivery">Delivery Required</label>
+            <select name="delivery" id="delivery" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+        </div>
+        <div>
+            <label for="address">Delivery Address</label>
+            <textarea id="address" rows="2" cols="25"></textarea>
+        </div>
+        <div>
+            <label for="comment">Extra requests</label>
+            <textarea id="comment" rows="2" cols="25"></textarea>
+        </div>
+        <div>
+            <input type="button" onclick="orderForm()" value="Submit" id="Submit">
+        </div>
+    </form>
+    <p></p>
+</body>
+<footer>
+    <div id="footer-container">
+        <div id="footer-column">
+            <h3>Contact Us</h3>
+            <p>Email: <a href='mailto:admin@palletsales.co.nz'>admin@palletsales.co.nz</a> or <a href='mailto:transport@palletsales.co.nz'>transport@palletsales.co.nz</a></p>
+            <p>Office: <a href="tel:+6421334095">+64 021 334 095</a></p>
+            <p>About an order: <a href="tel:+64276018892">+64 276 018 892</a></p>
+        </div>
+        <div id="footer-column">
+            <p>Come see us at <a href="https://www.google.com/maps/place/158+Walker+Road,+Ōpaheke,+Auckland+2110/@-37.0783305,174.9624172,17z/data=!3m1!4b1!4m6!3m5!1s0x6d72acebe1aef6cd:0xfd22e332e1ddbb22!8m2!3d-37.0783348!4d174.9649921!16s%2Fg%2F11s7zrg0r0?entry=ttu&g_ep=EgoyMDI2MDcxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">158 Walker Road, Ōpaheke, Auckland 2110</a></p>
+        </div>
+    </div>
+    <div id="footer-bottom">
+        <p>© 2026 Auckland Pallet Sales</p>
+    </div>
+</footer>
+</html>
