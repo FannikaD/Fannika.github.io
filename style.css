@@ -147,6 +147,10 @@ a:link{
     display: inline;
 }
 
+#order-form p{
+    display:inline;    
+}
+
 #order-form label{
     display: inline;
 }
