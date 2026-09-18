@@ -133,6 +133,14 @@ a:link{
     line-height: 1.6rem;
 }
 
+form #red{
+    font-color:red;
+}
+
+form label{
+    display: inline;
+}
+
 #checkbox {
     text-align: left;
     padding-left: 30%;
