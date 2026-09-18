@@ -147,7 +147,7 @@ a:link{
     display: inline;
 }
 
-#order-form p{
+#order-form h2{
     display:inline;    
 }
 
@@ -208,7 +208,7 @@ footer {
 @media screen and (max-width:480px) {
     #navbar{
         gap:5px;
-        font-size: 20px;
+        font-size: 16px;
     }
     #header-img{
         width:60px;
