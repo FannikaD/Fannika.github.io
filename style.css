@@ -42,6 +42,10 @@ ul {
     color:#f0f4f8;
     text-decoration: none;
     }
+  a:unvisited {
+      color:#f0f4f8;
+    text-decoration: none;
+  }
 }
 
 .option{
@@ -181,6 +185,7 @@ footer {
 
 @media screen and (max-width:480px) {
     #navbar{
+        gap:10px;
         font-size: 20px;
     }
     #header-img{
@@ -194,5 +199,16 @@ footer {
     #homeIMG3{
         width: 32%;
         height:300px;
+    }
+    #product{
+        height: 40%;
+        width: 40%;
+    }
+    .etc-bin #product{
+        height:33%;
+        width:32%;
+    }
+    #help{
+        width:80%;
     }
 }
