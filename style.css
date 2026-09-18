@@ -133,11 +133,19 @@ a:link{
     line-height: 1.6rem;
 }
 
-form #red{
-    font-color:red;
+#help-form #red{
+    color:red;
 }
 
-form label{
+#help-form label{
+    display: inline;
+}
+
+#order-form #red{
+    color:red;
+}
+
+#order-form label{
     display: inline;
 }
 
