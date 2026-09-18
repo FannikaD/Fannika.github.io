@@ -27,22 +27,22 @@
     <form action="https://api.web3forms.com/submit" method="POST" id="order-form">
         <input type="hidden" name="access_key" value="d3c5211b-66ef-49a2-b9d1-8b5dc68202f7">
         <div>
-            <label for="order-name">Name</label>
+            <label for="order-name">Name</label><p id='red'>*</p>
             <input id="order-name" type="text" name="order-name" required/>
         </div>
         <div>
-            <label for="order-email">Email</label>
+            <label for="order-email">Email</label><p id='red'>*</p>
             <input id="order-email" type="email" name="order-email" required/>
         </div>
         <div>
-            <label for="Order-number">Phone Number</label>
+            <label for="Order-number">Phone Number</label><p id='red'>*</p>
             <input id="order-number" type="tel" name="order-number" required/>
         </div>
         <div>
-            <label for="company">Company Name</label>
+            <label for="company">Company Name</label><p id='red'>*</p>
             <input id="company" type="text" name="company" />
         </div>
-        <p id="bold">Pallet Type</p>
+        <p id="bold">Pallet Type</p><p id='red'>*</p>
         <div id="checkbox">
             <input type="checkbox" id="2-way-1200x1000" name="2-way-1200x1000" value="2-way-1200x1000">
             <label for="2-way-1200x1000">2 way 1200 x 1000</label>
@@ -112,15 +112,15 @@
             <input type="number" id="plastic-epal-quantity" name="plastic-epal-quantity"placeholder="Amount"><br>
         </div>
         <div>
-            <label for="delivery">Delivery Required</label>
+            <label for="delivery">Delivery Required</label><p id='red'>*</p>
             <select name="delivery" id="delivery" required>
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
             </select>
         </div>
         <div>
-            <label for="address">Delivery Address</label>
-            <textarea id="address" rows="2" cols="25"></textarea>
+            <label for="address">Delivery Address</label><p id='red'>*</p>
+            <textarea id="address" rows="2" cols="25" required></textarea>
         </div>
         <div>
             <label for="comment">Extra requests</label>
