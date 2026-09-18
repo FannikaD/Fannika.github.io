@@ -27,27 +27,27 @@
     <h1>Or fill out a form for a prompt response</h1>
     <form action="https://api.web3forms.com/submit" method="POST" id="help-form">
         <input type="hidden" name="access_key" value="d3c5211b-66ef-49a2-b9d1-8b5dc68202f7">
-        <div style='display: inline-block;'>
+        <div>
             <label for="help-name">Name</label><p id='red'>*</p>
             <input id="help-name" type="text" name="help-name" required/> 
         </div>
-        <div style='display: inline-block;'>
+        <div>
             <label for="help-email">Email</label><p id='red'>*</p>
             <input id="help-email" type="email" name="help-email" required/>
         </div>
-        <div style='display: inline-block;'>
+        <div>
             <label for="help-number">Phone Number</label><p id='red'>*</p>
             <input id="help-number" type="tel" name="help-number" />
         </div>
         <div>
-            <label for="help">Your query</label><br/><p id='red' style='display: inline-block;'>*</p>
+            <label for="help">Your query</label><br/><p id='red'>*</p>
             <textarea id="help" rows="4" cols="50" required></textarea>
         </div>
         <div>
             <input type="button" class="help-btn" value="Submit" id="Submit">
         </div>
     </form>
-    <p></p>
+    <br>
     <script>
         const helpName = document.getElementById("help-name");
 const helpBtn = document.querySelector(".help-btn");
