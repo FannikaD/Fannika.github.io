@@ -181,28 +181,28 @@ const amount20= document.getElementById('plastic-1200x1000-nestable-quantity')
 const amount21= document.getElementById('plastic-1100x1100-nestable-quantity')
 const amount22= document.getElementById('plastic-epal-quantity')
 
-checkbox1.addEventListener('change', function() {amount1.required =checkbox.checked;});
-checkbox2.addEventListener('change', function() {amount2.required =checkbox.checked;});
-checkbox3.addEventListener('change', function() {amount3.required =checkbox.checked;});
-checkbox4.addEventListener('change', function() {amount4.required =checkbox.checked;});
-checkbox5.addEventListener('change', function() {amount5.required =checkbox.checked;});
-checkbox6.addEventListener('change', function() {amount6.required =checkbox.checked;});
-checkbox7.addEventListener('change', function() {amount7.required =checkbox.checked;});
-checkbox8.addEventListener('change', function() {amount8.required =checkbox.checked;});
-checkbox9.addEventListener('change', function() {amount9.required =checkbox.checked;});
-checkbox10.addEventListener('change', function() {amount10.required =checkbox.checked;});
-checkbox11.addEventListener('change', function() {amount11.required =checkbox.checked;});
-checkbox12.addEventListener('change', function() {amount12.required =checkbox.checked;});
-checkbox13.addEventListener('change', function() {amount13.required =checkbox.checked;});
-checkbox14.addEventListener('change', function() {amount14.required =checkbox.checked;});
-checkbox15.addEventListener('change', function() {amount15.required =checkbox.checked;});
-checkbox16.addEventListener('change', function() {amount16.required =checkbox.checked;});
-checkbox17.addEventListener('change', function() {amount17.required =checkbox.checked;});
-checkbox18.addEventListener('change', function() {amount18.required =checkbox.checked;});
-checkbox19.addEventListener('change', function() {amount19.required =checkbox.checked;});
-checkbox20.addEventListener('change', function() {amount20.required =checkbox.checked;});
-checkbox21.addEventListener('change', function() {amount21.required =checkbox.checked;});
-checkbox22.addEventListener('change', function() {amount22.required =checkbox.checked;});
+checkbox1.addEventListener('change', function() {amount1.required =checkbox1.checked;});
+checkbox2.addEventListener('change', function() {amount2.required =checkbox2.checked;});
+checkbox3.addEventListener('change', function() {amount3.required =checkbox3.checked;});
+checkbox4.addEventListener('change', function() {amount4.required =checkbox4.checked;});
+checkbox5.addEventListener('change', function() {amount5.required =checkbox5.checked;});
+checkbox6.addEventListener('change', function() {amount6.required =checkbox6.checked;});
+checkbox7.addEventListener('change', function() {amount7.required =checkbox7.checked;});
+checkbox8.addEventListener('change', function() {amount8.required =checkbox8.checked;});
+checkbox9.addEventListener('change', function() {amount9.required =checkbox9.checked;});
+checkbox10.addEventListener('change', function() {amount10.required =checkbox10.checked;});
+checkbox11.addEventListener('change', function() {amount11.required =checkbox11.checked;});
+checkbox12.addEventListener('change', function() {amount12.required =checkbox12.checked;});
+checkbox13.addEventListener('change', function() {amount13.required =checkbox13.checked;});
+checkbox14.addEventListener('change', function() {amount14.required =checkbox14.checked;});
+checkbox15.addEventListener('change', function() {amount15.required =checkbox15.checked;});
+checkbox16.addEventListener('change', function() {amount16.required =checkbox16.checked;});
+checkbox17.addEventListener('change', function() {amount17.required =checkbox17.checked;});
+checkbox18.addEventListener('change', function() {amount18.required =checkbox18.checked;});
+checkbox19.addEventListener('change', function() {amount19.required =checkbox19.checked;});
+checkbox20.addEventListener('change', function() {amount20.required =checkbox20.checked;});
+checkbox21.addEventListener('change', function() {amount21.required =checkbox21.checked;});
+checkbox22.addEventListener('change', function() {amount22.required =checkbox22.checked;});
         
 const orderName = document.getElementById("order-name");
 const orderBtn = document.querySelector(".order-btn");
@@ -221,70 +221,70 @@ orderBtn.addEventListener("click", () => {
     }else if (orderNumber.value === null || orderNumber.value === "") {
         alert("Please enter your phone number.");
         return;
-    }else if (checkbox1 && amount1 <=0){
+    }else if (checkbox1.checked && (amount1.value<=0||amount1.value===""||amount1.value===null)){
         alert("please enter the amount of 2 way 1200 x 1000")
         return;
-    }else if (checkbox2 && amount2 <=0){
+    }else if (checkbox2.checked && (amount2.value<=0||amount2.value===""||amount2.value===null)){
         alert("please enter the amount of 2 way 1000 x 1200")
         return;
-    }else if (checkbox3 && amount3 <=0){
+    }else if (checkbox3.checked && (amount3.value<=0||amount3.value===""||amount3.value===null)){
         alert("please enter the amount of 4 way 1200 x 1000")
         return;
-    }else if (checkbox4 && amount4 <=0){
+    }else if (checkbox4.checked && (amount4.value<=0||amount4.value===""||amount4.value===null)){
         alert("please enter the amount of chep styles")
         return;
-    }else if (checkbox5 && amount5 <=0){
+    }else if (checkbox5.checked && (amount5.value<=0||amount5.value===""||amount5.value===null)){
         alert("please enter the amount of budgets")
         return;
-    }else if (checkbox6 && amount6 <=0){
+    }else if (checkbox6.checked && (amount6.value<=0||amount6.value===""||amount6.value===null)){
         alert("please enter the amount of 1100 square 2 way")
         return;
-    }else if (checkbox7 && amount7 <=0){
+    }else if (checkbox7.checked && (amount7.value<=0||amount7.value===""||amount7.value===null)){
         alert("please enter the amount of banana pallets")
         return;
-    }else if (checkbox8 && amount8 <=0){
+    }else if (checkbox8.checked && (amount8.value<=0||amount8.value===""||amount8.value===null)){
         alert("please enter the amount of 1120 squares")
         return;
-    }else if (checkbox9 && amount9 <=0){
+    }else if (checkbox9.checked && (amount9.value<=0||amount9.value===""||amount9.value===null)){
         alert("please enter the amount of 1140 squares")
         return;
-    }else if (checkbox10 && amount10 <=0){
+    }else if (checkbox10.checked && (amount10.value<=0||amount10.value===""||amount10.value===null)){
         alert("please enter the amount of 1150 squares")
         return;
-    }else if (checkbox11 && amount11 <=0){
+    }else if (checkbox11.checked && (amount11.value<=0||amount11.value===""||amount11.value===null)){
         alert("please enter the amount of 1165 squares")
         return;
-    }else if (checkbox12 && amount12 <=0){
+    }else if (checkbox12.checked && (amount12.value<=0||amount12.value===""||amount12.value===null)){
         alert("please enter the amount of 1200 squares")
         return;
-    }else if (checkbox13 && amount13 <=0){
+    }else if (checkbox13.checked && (amount13.value<=0||amount13.value===""||amount13.value===null)){
         alert("please enter the amount of personalized pallets")
         return;
-    }else if (checkbox14 && amount14 <=0){
+    }else if (checkbox14.checked && (amount14.value<=0||amount14.value===""||amount14.value===null)){
         alert("please enter the amount of EPALs")
         return;
-    }else if (checkbox15 && amount15 <=0){
+    }else if (checkbox15.checked && (amount15.value<=0||amount15.value===""||amount15.value===null)){
         alert("please enter the amount of dairy boards")
         return;
-    }else if (checkbox16 && amount16 <=0){
+    }else if (checkbox16.checked && (amount16.value<=0||amount16.value===""||amount16.value===null)){
         alert("please enter the amount of oversized")
         return;
-    }else if (checkbox17 && amount17 <=0){
+    }else if (checkbox17.checked && (amount17.value<=0||amount17.value===""||amount17.value===null)){
         alert("please enter the amount of fruit bins")
         return;
-    }else if (checkbox18 && amount18 <=0){
+    }else if (checkbox18.checked && (amount18.value<=0||amount18.value===""||amount18.value===null)){
         alert("please enter the amount of plastic 1200x1000")
         return;
-    }else if (checkbox19 && amount19 <=0){
+    }else if (checkbox19.checked && (amount19.value<=0||amount19.value===""||amount19.value===null)){
         alert("please enter the amount of plastic 1100x1100")
         return;
-    }else if (checkbox20 && amount20 <=0){
+    }else if (checkbox20.checked && (amount20.value<=0||amount20.value===""||amount20.value===null)){
         alert("please enter the amount of plastic 1200x1000 nestables")
         return;
-    }else if (checkbox21 && amount21 <=0){
+    }else if (checkbox21.checked && (amount21.value<=0||amount21.value===""||amount21.value===null)){
         alert("please enter the amount of plastic 1100x1100 nestables")
         return;
-    }else if (checkbox22 && amount22 <=0){
+    }else if (checkbox22.checked && (amount22.value<=0||amount22.value===""||amount22.value===null)){
         alert("please enter the amount of plastic EPALs")
         return;
     }else {
