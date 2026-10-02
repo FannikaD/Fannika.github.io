@@ -88,6 +88,10 @@ a:link{
     margin-right: 10%;
 }
 
+#faqLi li{
+    list-style:default;
+}
+
 #homeIMG{
     display:inline-block;
     justify-content:left;
