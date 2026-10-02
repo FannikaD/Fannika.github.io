@@ -70,6 +70,24 @@ a:link{
 
 #question{
     font-weight: bold;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#answer{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#faqLi {
+    list-style-type: circle;
+    list-style-position: outside;
+    display: list-item;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #homeIMG{
@@ -204,6 +222,7 @@ footer {
     margin-top: 20px;
     padding-top: 20px;
 }
+
 
 @media screen and (max-width:480px) {
     #navbar{
